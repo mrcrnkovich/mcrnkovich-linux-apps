@@ -1,6 +1,6 @@
 pkgbase=mcrnkovich
 pkgname=(mcrnkovich-base mcrnkovich-apps mcrnkovich-sway mcrnkovich-utils mcrnkovich-xwayland)
-pkgver=1.4.0
+pkgver=1.4.1
 pkgrel=1
 pkgdesc="mcrnkovich applications packages"
 arch=("x86_64")
@@ -18,7 +18,7 @@ package_mcrnkovich-base() {
     depends=( 
         'acpi' 'autoconf' 'automake' 'base' 'bc'
         'binutils' 'bison' 'fakeroot'
-        'gcc' 'ghc'
+        'gcc' 'ghc' 'go'
         'file' 'findutils' 'flex' 'fwupd' 'gawk' 'gettext'
         'git' 'grep' 'groff' 'htop' 'libtool'
         'linux' 'linux-firmware'
