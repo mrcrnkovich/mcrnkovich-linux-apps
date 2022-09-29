@@ -1,6 +1,6 @@
 pkgbase=mcrnkovich
 pkgname=(mcrnkovich-base mcrnkovich-apps mcrnkovich-sway mcrnkovich-utils mcrnkovich-xwayland)
-pkgver=1.4.1
+pkgver=1.4.2
 pkgrel=1
 pkgdesc="mcrnkovich applications packages"
 arch=("x86_64")
